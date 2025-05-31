@@ -42,29 +42,29 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href="/">
-                  <a className="text-gray-300 hover:text-white transition-colors">Home</a>
+                  <span className="text-gray-300 hover:text-white transition-colors cursor-pointer">Home</span>
                 </Link>
               </li>
               <li>
                 <Link href="/products">
-                  <a className="text-gray-300 hover:text-white transition-colors">Products</a>
+                  <span className="text-gray-300 hover:text-white transition-colors cursor-pointer">Products</span>
                 </Link>
               </li>
               <li>
                 <Link href="/about">
-                  <a className="text-gray-300 hover:text-white transition-colors">About Us</a>
+                  <span className="text-gray-300 hover:text-white transition-colors cursor-pointer">About Us</span>
                 </Link>
               </li>
               <li>
                 <Link href="/contact">
-                  <a className="text-gray-300 hover:text-white transition-colors">Contact</a>
+                  <span className="text-gray-300 hover:text-white transition-colors cursor-pointer">Contact</span>
                 </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</a>
+                <span className="text-gray-300 hover:text-white transition-colors cursor-pointer">Privacy Policy</span>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-white transition-colors">Terms of Service</a>
+                <span className="text-gray-300 hover:text-white transition-colors cursor-pointer">Terms of Service</span>
               </li>
             </ul>
           </div>
@@ -75,27 +75,27 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href="/products">
-                  <a className="text-gray-300 hover:text-white transition-colors">Industrial Equipment</a>
+                  <span className="text-gray-300 hover:text-white transition-colors cursor-pointer">Industrial Equipment</span>
                 </Link>
               </li>
               <li>
                 <Link href="/products">
-                  <a className="text-gray-300 hover:text-white transition-colors">Heavy Machinery</a>
+                  <span className="text-gray-300 hover:text-white transition-colors cursor-pointer">Heavy Machinery</span>
                 </Link>
               </li>
               <li>
                 <Link href="/products">
-                  <a className="text-gray-300 hover:text-white transition-colors">Tools & Accessories</a>
+                  <span className="text-gray-300 hover:text-white transition-colors cursor-pointer">Tools & Accessories</span>
                 </Link>
               </li>
               <li>
                 <Link href="/products">
-                  <a className="text-gray-300 hover:text-white transition-colors">Safety Equipment</a>
+                  <span className="text-gray-300 hover:text-white transition-colors cursor-pointer">Safety Equipment</span>
                 </Link>
               </li>
               <li>
                 <Link href="/products">
-                  <a className="text-gray-300 hover:text-white transition-colors">Custom Solutions</a>
+                  <span className="text-gray-300 hover:text-white transition-colors cursor-pointer">Custom Solutions</span>
                 </Link>
               </li>
             </ul>
@@ -114,14 +114,14 @@ export default function Footer() {
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-gray-400 mr-2" />
-                <a href="tel:+1234567890" className="text-gray-300 hover:text-white transition-colors">
-                  +1 (234) 567-8900
+                <a href="tel:+919205258281" className="text-gray-300 hover:text-white transition-colors">
+                  +91 9205258281
                 </a>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-gray-400 mr-2" />
-                <a href="mailto:info@abccompany.com" className="text-gray-300 hover:text-white transition-colors">
-                  info@abccompany.com
+                <a href="mailto:rounakbanga2006@gmail.com" className="text-gray-300 hover:text-white transition-colors">
+                  rounakbanga2006@gmail.com
                 </a>
               </div>
             </div>

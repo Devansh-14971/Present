@@ -197,8 +197,8 @@ export default function Contact() {
                     <div>
                       <h6 className="font-medium">Phone</h6>
                       <p className="text-gray-600">
-                        <a href="tel:+1234567890" className="hover:text-blue-600">
-                          +1 (234) 567-8900
+                        <a href="tel:+919205258281" className="hover:text-blue-600">
+                          +91 9205258281
                         </a>
                       </p>
                     </div>
@@ -209,8 +209,8 @@ export default function Contact() {
                     <div>
                       <h6 className="font-medium">Email</h6>
                       <p className="text-gray-600">
-                        <a href="mailto:info@abccompany.com" className="hover:text-blue-600">
-                          info@abccompany.com
+                        <a href="mailto:rounakbanga2006@gmail.com" className="hover:text-blue-600">
+                          rounakbanga2006@gmail.com
                         </a>
                       </p>
                     </div>
@@ -248,7 +248,7 @@ export default function Contact() {
                 <Button
                   size="lg"
                   className="w-full bg-orange-500 hover:bg-orange-600"
-                  onClick={() => window.location.href = 'tel:+1234567890'}
+                  onClick={() => window.location.href = 'tel:+919205258281'}
                 >
                   <Phone className="mr-2 h-5 w-5" />
                   Call Now for Immediate Assistance

@@ -39,18 +39,18 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center space-x-8">
             {navigation.map((item) => (
               <Link key={item.name} href={item.href}>
-                <a
-                  className={`font-medium transition-colors hover:text-blue-600 ${
+                <span
+                  className={`font-medium transition-colors hover:text-blue-600 cursor-pointer ${
                     isActive(item.href) ? "text-blue-600" : "text-gray-700"
                   }`}
                 >
                   {item.name}
-                </a>
+                </span>
               </Link>
             ))}
             <Button
               className="bg-orange-500 hover:bg-orange-600"
-              onClick={() => window.location.href = 'tel:+1234567890'}
+              onClick={() => window.location.href = 'tel:+919205258281'}
             >
               <Phone className="mr-2 h-4 w-4" />
               Call Now
@@ -68,20 +68,20 @@ export default function Navbar() {
               <div className="flex flex-col space-y-6 mt-6">
                 {navigation.map((item) => (
                   <Link key={item.name} href={item.href}>
-                    <a
-                      className={`text-lg font-medium transition-colors hover:text-blue-600 ${
+                    <span
+                      className={`text-lg font-medium transition-colors hover:text-blue-600 cursor-pointer ${
                         isActive(item.href) ? "text-blue-600" : "text-gray-700"
                       }`}
                       onClick={() => setIsOpen(false)}
                     >
                       {item.name}
-                    </a>
+                    </span>
                   </Link>
                 ))}
                 <Button
                   className="bg-orange-500 hover:bg-orange-600 w-full"
                   onClick={() => {
-                    window.location.href = 'tel:+1234567890';
+                    window.location.href = 'tel:+919205258281';
                     setIsOpen(false);
                   }}
                 >

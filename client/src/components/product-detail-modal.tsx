@@ -17,7 +17,7 @@ export default function ProductDetailModal({ product, open, onClose }: ProductDe
 
   return (
     <Dialog open={open} onOpenChange={onClose}>
-      <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+      <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto" aria-describedby="product-description">
         <DialogHeader>
           <DialogTitle className="text-2xl">{product.name}</DialogTitle>
         </DialogHeader>
@@ -37,7 +37,7 @@ export default function ProductDetailModal({ product, open, onClose }: ProductDe
               <Badge variant="outline" className="capitalize mb-4">
                 {product.category}
               </Badge>
-              <p className="text-gray-600 text-lg">{product.description}</p>
+              <p id="product-description" className="text-gray-600 text-lg">{product.description}</p>
             </div>
             
             <div>
