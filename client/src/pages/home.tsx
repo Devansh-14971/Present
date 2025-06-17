@@ -164,7 +164,7 @@ export default function Home() {
                 </p>
                 <div className="flex items-center">
                   <img
-                    src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100"
+                    src="https://unsplash.com/photos/dog-poses-in-an-urban-environment-e25n2Hc-xs8"
                     alt="Sarah Johnson"
                     className="w-12 h-12 rounded-full object-cover mr-4"
                   />
