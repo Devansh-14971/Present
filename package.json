@@ -11,8 +11,6 @@
     "db:push": "drizzle-kit push"
   },
   "dependencies": {
-    "@realfavicongenerator/generate-favicon": "^0.4.16" ,
-    "@realfavicongenerator/image-adapter-node": "^0.4.16",
     "@hookform/resolvers": "^3.10.0",
     "@jridgewell/trace-mapping": "^0.3.25",
     "@neondatabase/serverless": "^0.10.4",
