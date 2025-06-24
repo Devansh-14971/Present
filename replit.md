@@ -74,11 +74,18 @@ This is a full-stack web application for ABC Company, featuring an industrial pr
 ### Deployment Strategy
 
 #### Replit Configuration
-- **Modules**: Node.js 20, Web, PostgreSQL 16
+- **Modules**: Node.js 20, Web
 - **Development**: `npm run dev` with hot reload
 - **Production Build**: Vite build + ESBuild server bundling
 - **Port Configuration**: Server on port 5000, external port 80
 - **Auto-scaling**: Configured for autoscale deployment
+
+#### External Deployment (Render, Railway, etc.)
+- **Build Command**: `npm install && npm run build`
+- **Start Command**: `npm start`
+- **Environment**: NODE_ENV=production
+- **Database**: SQLite file persisted to disk volume
+- **Static Files**: Built and served from dist/public
 
 #### Build Process
 1. Client build with Vite (outputs to `dist/public`)
@@ -100,6 +107,7 @@ Changelog:
 - June 24, 2025. Implemented PostgreSQL database integration with Drizzle ORM
 - June 24, 2025. Migrated to SQLite local file database for better portability
 - June 24, 2025. Added real-time dashboard data with product and quote request statistics
+- June 24, 2025. Added deployment configuration for Render and other platforms
 ```
 
 ### User Preferences
