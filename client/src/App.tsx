@@ -9,6 +9,9 @@ import Home from "@/pages/home";
 import Products from "@/pages/products";
 import About from "@/pages/about";
 import Contact from "@/pages/contact";
+import AdminLogin from "@/pages/admin-login";
+import AdminDashboard from "@/pages/admin-dashboard";
+import AdminAccessDenied from "@/pages/admin-access-denied";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -18,6 +21,9 @@ function Router() {
       <Route path="/products" component={Products} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
+      <Route path="/admin/login" component={AdminLogin} />
+      <Route path="/admin/dashboard" component={AdminDashboard} />
+      <Route path="/admin/access-denied" component={AdminAccessDenied} />
       <Route component={NotFound} />
     </Switch>
   );
